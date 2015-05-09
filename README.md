@@ -1,10 +1,15 @@
-CedarShortcuts is an Xcode 4 plugin that adds handy shortcuts for
-[Cedar](http://github.com/pivotal/cedar) (testing framework) to the
-Xcode menus. For example: Cedar allows you to focus on examples with 
-`fit/fdescribe` but with this plugin you can select `it/describe` with your 
-cursor and use a shortcut instead.
+XcodeCPPShortcuts is an Xcode 4 plugin that adds handy shortcuts for
+making c++ developement more productive.
 
 * `rake install` or build from XCode
+
+* Shortcuts
+* 
+    `Ctrl + I`  
+    Insert `#import` declaration for a symbol under the cursor  
+    (Edit > Insert Include)
+
+** Shortcuts providede from (the original) CedarShortcuts
 
 * Shortcuts
 
