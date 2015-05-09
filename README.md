@@ -6,7 +6,7 @@ making c++ developement more productive.
 * Shortcuts
 * 
     `Ctrl + I`  
-    Insert `#import` declaration for a symbol under the cursor  
+    Insert `#include` declaration for a symbol under the cursor  
     (Edit > Insert Include)
 
 
