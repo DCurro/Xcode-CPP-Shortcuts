@@ -17,6 +17,8 @@
 		961B3EC916B65E94001A27ED /* CDRSAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 961B3EC816B65E94001A27ED /* CDRSAlert.m */; };
 		9646DDEE161D435F00AAF79C /* CDRSRunFocusedMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 9646DDED161D435F00AAF79C /* CDRSRunFocusedMenu.m */; };
 		96593EE716226AA1009C7979 /* CDRSInsertImport.m in Sources */ = {isa = PBXBuildFile; fileRef = 96593EE616226AA1009C7979 /* CDRSInsertImport.m */; };
+		9659EA261AFE222300CE502F /* CDRSInsertInclude.h in Sources */ = {isa = PBXBuildFile; fileRef = 9659EA251AFE222300CE502F /* CDRSInsertInclude.h */; };
+		9659EA271AFE235A00CE502F /* CDRSInsertInclude.m in Sources */ = {isa = PBXBuildFile; fileRef = 9659EA241AFE222300CE502F /* CDRSInsertInclude.m */; };
 		966A685C16465960005D28B7 /* CDRSShowRecentFiles.m in Sources */ = {isa = PBXBuildFile; fileRef = 966A685B16465960005D28B7 /* CDRSShowRecentFiles.m */; };
 		966A686016465A06005D28B7 /* CDRSViewMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 966A685F16465A06005D28B7 /* CDRSViewMenu.m */; };
 		9677A43D1612C65200A4708D /* NSObject+CDRSChainSelector.m in Sources */ = {isa = PBXBuildFile; fileRef = 9677A43C1612C65200A4708D /* NSObject+CDRSChainSelector.m */; };
@@ -60,6 +62,8 @@
 		9646DDED161D435F00AAF79C /* CDRSRunFocusedMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDRSRunFocusedMenu.m; sourceTree = "<group>"; };
 		96593EE516226AA1009C7979 /* CDRSInsertImport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDRSInsertImport.h; sourceTree = "<group>"; };
 		96593EE616226AA1009C7979 /* CDRSInsertImport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDRSInsertImport.m; sourceTree = "<group>"; };
+		9659EA241AFE222300CE502F /* CDRSInsertInclude.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDRSInsertInclude.m; sourceTree = "<group>"; };
+		9659EA251AFE222300CE502F /* CDRSInsertInclude.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDRSInsertInclude.h; sourceTree = "<group>"; };
 		966A685A16465960005D28B7 /* CDRSShowRecentFiles.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDRSShowRecentFiles.h; sourceTree = "<group>"; };
 		966A685B16465960005D28B7 /* CDRSShowRecentFiles.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDRSShowRecentFiles.m; sourceTree = "<group>"; };
 		966A685E16465A06005D28B7 /* CDRSViewMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDRSViewMenu.h; sourceTree = "<group>"; };
@@ -118,6 +122,8 @@
 				96593EE616226AA1009C7979 /* CDRSInsertImport.m */,
 				966A685A16465960005D28B7 /* CDRSShowRecentFiles.h */,
 				966A685B16465960005D28B7 /* CDRSShowRecentFiles.m */,
+				9659EA241AFE222300CE502F /* CDRSInsertInclude.m */,
+				9659EA251AFE222300CE502F /* CDRSInsertInclude.h */,
 			);
 			name = Actions;
 			sourceTree = "<group>";
@@ -135,7 +141,7 @@
 			isa = PBXGroup;
 			children = (
 				96FF419916060A3300B461B4 /* README.md */,
-				960FA0941605819F00923A87 /* CedarShortcuts */,
+				960FA0941605819F00923A87 /* XcodeCppShortcuts */,
 				960FA0951605819F00923A87 /* Supporting Files */,
 				960FA0911605819F00923A87 /* Frameworks */,
 				960FA0901605819F00923A87 /* Products */,
@@ -159,7 +165,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		960FA0941605819F00923A87 /* CedarShortcuts */ = {
+		960FA0941605819F00923A87 /* XcodeCppShortcuts */ = {
 			isa = PBXGroup;
 			children = (
 				960FA0A0160584AC00923A87 /* CedarShortcuts.h */,
@@ -173,6 +179,7 @@
 				9608A8FE1622757F00763892 /* Xcode Additions */,
 				96DB4E451622824600743C95 /* Utils */,
 			);
+			name = XcodeCppShortcuts;
 			path = CedarShortcuts;
 			sourceTree = "<group>";
 		};
@@ -285,6 +292,7 @@
 				9646DDEE161D435F00AAF79C /* CDRSRunFocusedMenu.m in Sources */,
 				22EE4BC9161F3DD200A0FAFE /* CDRSOpenAlternateMenu.m in Sources */,
 				22196F37161F4042007EEDF8 /* CDRSOpenAlternate.m in Sources */,
+				9659EA271AFE235A00CE502F /* CDRSInsertInclude.m in Sources */,
 				22196F3A161F65FF007EEDF8 /* CDRSFilePathNavigator.m in Sources */,
 				969FAA5216224F4700E48B0A /* CDRSEditMenu.m in Sources */,
 				96593EE716226AA1009C7979 /* CDRSInsertImport.m in Sources */,
@@ -293,6 +301,7 @@
 				966A685C16465960005D28B7 /* CDRSShowRecentFiles.m in Sources */,
 				966A686016465A06005D28B7 /* CDRSViewMenu.m in Sources */,
 				96C2110216B619B30088393E /* CDRSSchemePicker.m in Sources */,
+				9659EA261AFE222300CE502F /* CDRSInsertInclude.h in Sources */,
 				961B3EC916B65E94001A27ED /* CDRSAlert.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
