@@ -9,7 +9,8 @@ making c++ developement more productive.
     Insert `#import` declaration for a symbol under the cursor  
     (Edit > Insert Include)
 
-** Shortcuts providede from (the original) CedarShortcuts
+
+Shortcuts providede from (the original) CedarShortcuts
 
 * Shortcuts
 
